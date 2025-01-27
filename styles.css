@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgba(255, 87, 34, 0.8), rgba(0, 0, 0, 0.8)), url('background.jpg') no-repeat center center fixed; 
+    /* Gradient + background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #ff5722; /* Orange for headers */
+}
+
+a {
+    color: #ff5722; /* Orange links */
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #121212; /* Dark background for the navbar */
+}
+
+.navbar h1 {
+    font-size: 2.5em;
+    color: #ff5722; /* Orange */
+    margin: 0;
+}
+
+/* Logo Styling */
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Navigation Links */
+.navbar nav a {
+    margin: 0 15px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.navbar nav a:hover {
+    color: #ff5722; /* Orange on hover */
+}
+
+/* Section Styling */
+.section {
+    background-color: rgba(18, 18, 18, 0.8); /* Dark background with opacity for sections */
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.token-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1em;
+}
+
+/* Roadmap Section */
+.roadmap ul {
+    list-style: none;
+    padding: 0;
+}
+
+.roadmap li {
+    background-color: #333;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.roadmap h3 {
+    font-size: 1.6em;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-btn {
+    background-color: #ff5722; /* Orange buttons */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #121212; /* Dark footer */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
